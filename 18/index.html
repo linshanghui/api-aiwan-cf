@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="css/zt.css" />
+		<title>圆滚滚她爹的个人主页</title>
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script src="js/yiyan.js" type="text/javascript"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+		<script src="js/sj.js" type="text/javascript"></script>
+		<script src="js/anniu.js" type="text/javascript"></script>
+		<script>
+		  fetch('https://v1.hitokoto.cn')
+		    .then(function (res){
+		      return res.json();
+		    })
+		    .then(function (data) {
+		      var hitokoto = document.getElementById('hitokoto');
+		      hitokoto.innerText = data.hitokoto; 
+		    })
+		    .catch(function (err) {
+		      console.error(err);
+		    })
+		</script>
+		<style>
+		p{
+			font-family: 'kx';
+			font-size: 55px;
+			color:rgb(111,111,145,0.5);
+			font-weight:bolder;
+		}
+		@font-face {
+			font-family:'kx'; 
+		    src: url('font/xiangsu.ttf'); 
+			
+		}
+		</style>
+	</head>
+	<body>
+		<div class="mengban">
+		<div class='card-holder'>
+		    <div class='card-wrapper'>
+		        <a href='http://pureyun.top/index/index/login.html'>
+		            <div class='card bg-01'>
+		                <span class='card-content'>圆滚滚的音乐电台</span>
+		            </div>
+		        </a>
+		    </div>
+		    <div class='card-wrapper'>
+		        <a href='#'>
+		            <div class='card bg-02'>
+		               <span class='card-content'>未定义</span>
+		            </div>
+		        </a>
+		    </div>
+		    <div class='card-wrapper'>
+		        <a href='#'>
+		            <div class='card bg-03'>
+		                <span class='card-content'>未定义</span>
+		            </div>
+		        </a>
+		    </div>
+		    <div class='card-wrapper'>
+		        <a href='#'>
+		            <div class='card bg-04'>
+		                <span class='card-content'>未定义</span>
+		            </div>
+		        </a>
+		    </div>
+		    <div class='card-wrapper'>
+		        <a href='#'>
+		            <div class='card bg-05'>
+		                <span class='card-content'>未定义</span>
+		            </div>
+		        </a>
+		    </div>
+		</div>
+		<img src="img/huaji.png" width="100px" height="100px" id="huaji"/>
+		<div id="Layer1" style="position:absolute;left:0px; top:0px; width:100%; height:100%;z-index: -10;position: fixed;"> 
+		<img src="https://api.ixiaowai.cn/mcapi/mcapi.php" width="100%" height="100%"/> 
+		</div>
+		 <div id="yiyan">
+        <p id="hitokoto" style="font-size: 60px;color:rgb(111,111,145,0.5);font-weight:bolder;"></p><br/>
+		</div>
+		<br/>
+		<div id="wz">
+		<p class="time"></p>
+		</div>
+		<div id="tup">
+		<a href="https://qm.qq.com/cgi-bin/qm/qr?k=-igE_w08cihack9OopO2D2RzMalqe3jU&noverify=0">
+		<img id="imga" src="img/1.png" width="100px" height="100px"/>
+		</a>
+		</div>
+		<script id="xplayer" src="http://pureyun.top/Static/player/player.js" key="616be3668fa6c" m="1"></script>
+		</div>
+	</body>
+</html>

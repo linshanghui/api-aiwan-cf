@@ -1,0 +1,92 @@
+<!--作者小权-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>小权个人导航网</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="https://at.alicdn.com/t/font_2962400_gpo2ebvd428.js"></script>
+</head>
+</style>
+<body>
+    
+	<div class="qqimg">
+		<img src="http://q1.qlogo.cn/g?b=qq&nk=3270361156&s=640">
+	</div>
+	<div class="solid-ht"></div>
+	<div class="solid-wh"></div>
+	<div class="title">
+		<i><h1>小权个人导航引导页</h1></i>
+		<p>一个人可以被打，但不能被打倒！</p>
+	</div>
+	<div class="solid-wh"></div>
+	<div class="solid-ht"></div>
+	<div class="nav">
+		<ul>
+			<li><a href="#">等待添加</a></li>
+			<li><a href="#">等待添加</a></li>
+			<li><a href="#">等待添加</a></li>
+			<li><a href="#">等待添加</a></li>
+
+		</ul>
+	</div>
+	<div class="contact">
+		<h3>点击下方支助我一点吧</h3>
+		<a href="JavaScript:;" id="ewm">
+			<svg class="icon" aria-hidden="true">
+ 				<use xlink:href="#icon-QQ"></use>
+          	</svg><span> Q Q</span>
+        </a>
+		<a href="JavaScript:;" id="ewm">
+			<svg class="icon" aria-hidden="true">
+ 				<use xlink:href="#icon-zhifubao
+"></use>
+          	</svg><span> 支付宝</span>
+        </a>
+        <a href="JavaScript:;" id="ewm">
+			<svg class="icon" aria-hidden="true">
+ 				<use xlink:href="#icon-weixinzhifu
+"></use>
+          	</svg><span> 微信</span>
+        </a>
+	</div>
+    <div class="zs-qq">
+        <p>请扫描以下二维码向我付款</p>
+        <img src=""/>
+        <p>非常感谢你的每一赞助</p>
+        <p>你们的每一笔赞助,我都会记在心里</p>
+        <button id="btn">确定</button>
+    </div>
+	<div class="copyright">
+		<p>Copyright © 2020-2021. 小权科技</p>
+	</div>
+    <audio autoplay="autoplay" id="audio_play" loop="loop">
+    <source src="https://sharefs.ali.kugou.com/202112120017/e80dc60e540c55b7d93d5ed5e9f745fd/KGTX/CLTX001/c7da202212ff8314ab13ba5dd7957b30.mp3" type="audio/mpeg">
+    <source src= type="audio/mpeg">
+    </audio>
+    <script src="http://lib.baomitu.com/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+       $(function (){
+         
+          $(".contact a").eq(0).click(function (){//qq二维码
+             $(".zs-qq img").attr("src","./images/ewm.png");
+             $(".zs-qq").show();
+          })
+          $(".contact a").eq(1).click(function (){//支付宝二维码
+             $(".zs-qq img").attr("src","./images/ewm.png");
+             $(".zs-qq").show();
+          })
+          $(".contact a").eq(2).click(function (){//微信二维码
+             $(".zs-qq img").attr("src","./images/wxskm.png");
+             $(".zs-qq").show();
+          })
+          $("#btn").click(function (){
+             $(".zs-qq").hide();
+          })
+       })
+       
+    </script>
+   
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!--
+拟态UI2.0（压缩版）
+博客：www.xfwl.club
+作者：小枫
+QQ：180918574
+兼容所有平台！
+完全开源，禁止商用！转载文章请留下我的博客，谢谢！
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小枫拟态UI2.0-拟态UI设计</title>
+    <meta name="keywords" content="小枫网络,小枫网络导航,小枫网络工作室,拟态UI设计,UI,网页UI,简约个人主页,个人主页,导航">
+    <meta name="description" content="拟态UI设计是小枫原创的一款简约平滑全开源的个人主页">
+    <meta name="author" content="小枫QQ180918574">
+    <link rel="shortcut icon" href="https://www.xfwl.club/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="core hd">
+        <!-- 时间 -->
+        <h1 class="time_econd"></span></h1>
+        <h3><span class="time_moon"></span>&nbsp;&nbsp;<span id="clock"></span>&#128513;</h3>
+        <!-- 搜索栏 -->
+        <div class="xf_baidu xf_style">
+            <form action="http://www.baidu.com/baidu" target="_blank">
+                <i></i>
+                <input type="text" name="word" size="30" autocomplete="off" placeholder="百度一下">
+                <input type="submit">
+            </form>
+        </div>
+    </header>
+    <!-- 主体 -->
+    <section class="core main xf_style">
+        <!-- 头像 -->
+        <div class="tx">
+            <!-- https://q1.qlogo.cn/g?b=qq&nk=1809185784&s=100 -->
+            <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-dec470b0-fed6-46e5-be53-ec85fadc01be/95b45fd5-2cba-4741-9679-df34e01b6ece.jpg" alt="摸摸小枫的脑袋" title="摸摸小枫的脑袋">
+        </div>
+        <!-- 姓名 个签 -->
+        <div class="xf_name">
+            <h2>小枫</h2>
+            <h4 id="xf_txt"></h4>
+        </div>
+        <!-- 图标 （img里面的是透明图是用来转换超链接） -->
+        <div class="xf_ico_link">
+            <ul>
+                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="抖音" title="抖音"></a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="QQ" title="QQ"></a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="邮箱" title="邮箱"></a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="./assets/images/transparent.png"
+                            alt="bilibili" title="bilibili"></a></li>
+            </ul>
+        </div>
+        <!-- 介绍 -->
+        <div class="xf_introduce">
+            <p id="xf_type"></p>
+        </div>
+        <!-- 滑动效果 -->
+        <p class="xf_slide">&#xeb6d;</p>
+        <div class="xf_website">
+            <a href="http://www.xfwl.club" target="_blank" rel="noopener noreferrer">小枫网络</a>
+            <a href="http://music.xfyun.club" target="_blank" rel="noopener noreferrer">H5播放器</a>
+            <a href="http://www.xfyun.club" target="_blank" rel="noopener noreferrer">免费床图</a>
+            <a href="http://layui.xfwl.club" target="_blank" rel="noopener noreferrer">layui镜像站</a>
+        </div>
+    </section>
+    <!-- 底部 -->
+    <footer class="core copy">
+        <p>Copyright © 2022 <a href="https://www.xfwl.club" target="_blank" rel="noopener noreferrer">小枫网络</a> 版权所有</p>
+        <p>开源地址：<a href="https://gitee.com/xfwlclub/ui2.0" target="_blank"
+                rel="noopener noreferrer">gitee</a></p>
+    </footer>
+    <audio autoplay>
+        <source src="https://api.uomg.com/api/rand.music?sort=热歌榜" type="audio/mpeg">
+    </audio>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".xf_slide").click(function () {
+                $(".xf_website").slideToggle("slow");
+            })
+        })
+    </script>
+    <script src="./assets/js/time.js"></script>
+    <script src="./assets/js/text.js"></script>
+    <script src="https://admin.xfwl.club/fireworks.js"></script>
+</body>
+
+</html>
