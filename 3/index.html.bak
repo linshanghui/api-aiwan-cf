@@ -7,14 +7,14 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<meta name="apple-mobile-web-app-title" content="阿宅引导页">
+<meta name="apple-mobile-web-app-title" content="顾冷引导页">
 <meta http-equiv="Cache-Control" content="no-siteapp">
-<meta name="author" content="阿宅引导页">
-<meta name="keywords" content="阿宅引导页，阿宅主页，引导页，官网主页">
-<meta name="description" content="阿宅引导页，阿宅主页，引导页，官网主页">
+<meta name="author" content="顾冷引导页">
+<meta name="keywords" content="顾冷引导页，顾冷主页，引导页，官网主页">
+<meta name="description" content="顾冷引导页，顾冷主页，引导页，官网主页">
 <link rel="stylesheet" href="css/style1.css" type="text/css">
 <link rel="shortcut icon" href="/favicon.ico">
-<title>阿宅引导页</title>
+<title>顾冷引导页</title>
 <script src="js/util.js"></script>
 <script src="js/respond.min.js"></script>
   
@@ -64,28 +64,28 @@ setTimeout( function(){$("#hitokoto").fadeOut(1000);}, 5000 );
 </script>
 <div id="wrapper">
 <article id="home" class="panel special" style="display: flex;">
-<div class="image" style="background-image: url(https://api.ixiaowai.cn/api/api2.php); background-position: center center;">
+<div class="image" style="background-image: url(https://dwz.mk/yuaiMn); background-position: center center;">
 </div>
 <div class="content">
 <div class="inner">
 <header>
   <div class="content">
 		<div class="inner">
-                        <h1><font color="#FF5200">阿宅引导页</font></h1>
+                        <h1><font color="#FF5200">顾冷引导页</font></h1>
 			
-                        <p><strong>阿宅出品·必属精品</strong></p>
-          <p>ＱＱ：2621133262</p>
+                        <p><strong>顾冷出品·必属精品</strong></p>
+          <p>ＱＱ：自己设置</p>
 			<p>&nbsp;  </p>
                         <p>&nbsp;</p>
 <div id="hitokoto" style="">绝望的人没有故乡。</div>
           </div></div></header>
                     <nav id="nav">
                         <ul class="actions vertical special spinY">
-							<li><a href="/" class="button"><font color="#9932CC">阿宅</font></a></li>
-							<li><a href="/" class="button"><font color="6666CC">阿宅</font></a></li>
-                                               <li><a href="/" class="button"><font color="#9932CC">阿宅</font></a></li>
+							<li><a href="/" class="button"><font color="#9932CC">顾冷</font></a></li>
+							<li><a href="/" class="button"><font color="6666CC">顾冷</font></a></li>
+                                               <li><a href="/" class="button"><font color="#9932CC">顾冷</font></a></li>
                              
-                            <li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=QQ&amp;site=qq&amp;menu=yes" class="button"><font color="#9932CC">联系阿宅</font></a></li>
+                            <li><a href="http://wpa.qq.com/msgrd?v=3&amp;uin=QQ&amp;site=qq&amp;menu=yes" class="button"><font color="#9932CC">联系顾冷</font></a></li>
                         </ul>
                     </nav>
 
@@ -94,7 +94,7 @@ setTimeout( function(){$("#hitokoto").fadeOut(1000);}, 5000 );
        
 </article>
 <footer id="footer" class="">
- <p class="copyright">©<a href="https://beian.miit.gov.cn/" target="_blank">阿宅引导页  粤ICP备5201314号-1</a></p>
+ <p class="copyright">©<a href="https://beian.miit.gov.cn/" target="_blank">顾冷引导页  粤ICP备19152374号-1</a></p>
 <center>本站已安全运行:
 <span id="momk"></span>
 <script language="javascript">

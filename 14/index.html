@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>愔约天团官网</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--头部-->
+  <div class="head">
+    <div class="head-logo">
+      <img src="image/icon.png" alt="" />
+    </div>
+    <div class="head-list">
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">首页</a>
+        </li>
+        <li>
+          <a href="#gy">简介</a>
+        </li>
+        <li>
+          <a href="#zw">职位</a>
+        </li>
+        <li>
+          <a href="#zp">作品</a>
+        </li>
+      </ul>
+    </nav>
+    </div>
+  </div>
+  
+  <!-- 轮播开始 -->
+    <link rel="stylesheet" href="css/box.css">
+  		<div class="box">
+
+			<div class="box-img"><img src="image/3.jpg"></div>
+			<div class="box-img"><img src="image/4.jpg"></div>
+			<div class="box-img"><img src="image/5.jpg"></div>
+			<div class="box-img"><img src="image/6.jpg"></div>
+			<div class="box-left">&lt;</div>
+			<div class="box-right">&gt;</div>
+			<div class="box-zhiding">
+				<ul>
+					<li class="botton"></li>
+					<li class="botton"></li>
+					<li class="botton"></li>
+					<li class="botton"></li>
+				</ul>
+			</div>
+		</div>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			var index=0;//标记当前图片索引
+			var f;
+			dingshiqi();
+			function dingshiqi(){
+				f=setInterval(function(){
+					if(index==$(".box-img").length-1){
+						index=0;
+						$(".box-img").css("opacity","0");
+						$(".box-img").eq(index).css("opacity","1");
+						$(".botton").css("background-color","#ccc");
+						$(".botton").eq(index).css("background-color","#fff");
+					}else{
+						index++;
+						$(".box-img").css("opacity","0");
+						$(".box-img").eq(index).css("opacity","1");
+						$(".botton").css("background-color","#ccc");
+						$(".botton").eq(index).css("background-color","#fff");
+					}
+				},4000)
+			}
+			$(".box-left").click(function(){
+				clearInterval(f);
+				if(index==0){
+					index=$(".box-img").length-1;
+					$(".box-img").css("opacity","0");
+					$(".box-img").eq(index).css("opacity","1");
+					$(".botton").css("background-color","#ccc");
+					$(".botton").eq(index).css("background-color","#fff");
+					dingshiqi();
+				}
+				else{
+					index--;
+					$(".box-img").css("opacity","0");
+					$(".box-img").eq(index).css("opacity","1");
+					$(".botton").css("background-color","#ccc");
+					$(".botton").eq(index).css("background-color","#fff");
+					dingshiqi();
+				}
+			})
+			$(".box-right").click(function(){
+				clearInterval(f);
+				if(index==$(".box-img").length-1){
+					index=0;
+					$(".box-img").css("opacity","0");
+					$(".box-img").eq(index).css("opacity","1");
+					$(".botton").css("background-color","#ccc");
+					$(".botton").eq(index).css("background-color","#fff");
+					dingshiqi();
+				}
+				else{
+					index++;
+					$(".box-img").css("opacity","0");
+					$(".box-img").eq(index).css("opacity","1");
+					$(".botton").css("background-color","#ccc");
+					$(".botton").eq(index).css("background-color","#fff");
+					dingshiqi();
+				}
+			})
+			
+				$(".botton").click(function(){
+					clearInterval(f);
+					var indexx=$(this).index();
+					index=indexx;
+					$(".box-img").css("opacity","0");
+					$(".box-img").eq(index).css("opacity","1");
+					$(".botton").css("background-color","#ccc");
+					$(".botton").eq(index).css("background-color","#fff");
+					dingshiqi();
+				})
+			
+		})
+	</script>
+  <!--轮播结束-->
+  <!--  开始  -->
+    <link rel="stylesheet" href="css/gy.css">
+  <div class="title" id="gy">
+    <div class="line"></div>
+    <h3>天团简介</h3>
+    <div class="line"></div>
+  </div>
+  <div class="gy-nr">
+    <div class="gy-nr-img">
+      <img src="image/zplogo.png" alt="" />
+    </div>
+    <div class="gy-nr-txt">
+      <span>
+        <h3>愔约天团简介</h3><br />
+              &nbsp;&nbsp;愔约天团不仅是一个召集各路喜爱音乐的家人，它还是一个团结友爱的大家庭。
+      来到愔约就是你们的福份，帅哥美女嘎嘎多，还有搞笑大方活泼的团员们。来了就是一家人，群消息天天99+。
+     进团要求：招募好声音，每周积分最少做到350分，作品发布最少四个，事不过三，每个人有三次机会，超过则被请出团。
+     团规：入团后进入天团总群，群里❌黄色，❌骂人，❌背后嚼舌根。
+     当然，以为只有歌友吗？不，还有开黑队友，可组队王者、吃鸡、蛋仔派对……快来加入我们叭~
+     愔约天团期待你们的到来哦~
+      </span>
+    </div>
+  </div>
+  <!--简介结束-->
+  <!--职位开始-->
+    <link rel="stylesheet" href="css/zw.css">
+    <div class="title" id="zw">
+    <div class="line"></div>
+    <h3>职位表</h3>
+    <div class="line"></div>
+  </div>
+  <div class="tz">
+    <div class="ch"><p>团长</p></div>
+      <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=2044037949&spec=640" alt="" />
+  <div id="tzwz">
+    <span>愔约🎸懒得鸟你</span>
+    </div>
+  </div>
+  <div class="ftza">
+  <div class="ftz">
+    <div>
+      <div class="xch"><p>副团长</p></div>
+      <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=3529706353&spec=640" alt=""/>
+    <span>愔约🎸纯情女高<span>
+    </div>
+  </div>
+    <div class="ftz">
+    <div>
+      <div class="xch"><p>副团长</p></div>
+      <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=2191673562&spec=640" alt=""/>
+    <span>愔约🎸星星<br>&nbsp</span>
+    </div>
+  </div>
+    <div class="ftz">
+    <div>
+      <div class="xch"><p>副团长</p></div>
+      <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=3599536906&spec=640" alt=""/>
+    <span>愔约🎸星辰<br>&nbsp</span>
+    </div>
+  </div>
+    <div class="ftz">
+    <div>
+      <div class="xch"><p>副团长</p></div>
+      <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=1525004667&spec=640" alt=""/>
+    <span>愔约🎸小琳睡不饱</span>
+    </div>
+  </div>
+</div>
+  <!--职位结束-->
+  
+  <!--视频开始-->
+    <link rel="stylesheet" href="css/sp.css">
+    <div class="title" id="sp">
+    <div class="line"></div>
+    <h3>精彩视频</h3>
+    <div class="line"></div>
+  </div>
+  <div class="sp">
+  <video controls poster="https://p3fx.kgimg.com/mvpic/74/a2/74a2ddf44b72d7f3b425b945a4f72468.jpg">
+  <source src="https://mvwebfs.ali.kugou.com/202301171328/442c17f00b3d698de763892fe000a2d6/KGTX/CLTX002/86050f5fe3fc12d571138b3ada7f686f.mp4" type="video/mp4">
+  您的浏览器不支持 HTML5 video 标签。
+</video>
+<p>《王者荣耀——时节》</p>
+  </div>
+  <!--视频结束-->
+  <!--作品开始-->
+  <link rel="stylesheet" href="css/style.css" />
+      <div class="title" id="zp">
+    <div class="line"></div>
+    <h3>成员作品</h3>
+    <div class="line"></div>
+  </div>
+    <div class="banner">
+    <div class="one"
+        vpath="http://js-imv.static.yximgs.com/mediacloud/imv/music_video/zQ72l4qEAlpy-VYxZ_smBWRZtsT2H4MhtzBEDK1nDwg"
+        ipath="http://www.idc-bt.top/video/2023-01-05/63b65ed0a7d74.mp4">
+        <img src="http://js-imv.static.yximgs.com/mediacloud/imv/music_video/zQ72l4qEAlpy-VYxZ_smBWRZtsT2H4MhtzBEDK1nDwg" alt="9">
+        <pre>勇敢爱</pre>
+        <div class="touxiang">
+        <img src="http://q.qlogo.cn/headimg_dl?dst_uin=2574093958&spec=640&img_type=jpg" alt=""/>
+        <span>康康说他再想想🌈</span>
+        </div>
+      </div>
+      <div class="one"
+        vpath="http://ali-imv.static.yximgs.com/mediacloud/imv/music_video/ivoGqDpETbMCVdxO2-bvYSVFizGPM1zfoREX7lGlQQc"
+        ipath="http://www.idc-bt.top/video/2023-01-05/63b6677716aa4.mp4">
+        <img src="http://ali-imv.static.yximgs.com/mediacloud/imv/music_video/ivoGqDpETbMCVdxO2-bvYSVFizGPM1zfoREX7lGlQQc" alt="10">
+        <pre>倒数</pre>
+        <div class="touxiang">
+        <img src="http://q2.qlogo.cn/headimg_dl?dst_uin=3529706353&spec=640" alt=""/>
+        <span>愔约🎸纯情女高</span>
+        </div>
+      </div>
+<div class="one"
+        vpath="http://js-imv.static.yximgs.com/mediacloud/imv/music_video/Ebgx0C_LhrF17z8eKqGUM8vFdmeJ4fa4IWjuL-_ewi0"
+        ipath="http://js-imv.video.yximgs.com/mediacloud/imv/music_video/570bcbc126d8b4bf-d8a0d9575d25544f6925ca8469789eb8-imv_video_1080p_h264_watermark.mp4">
+        <img src="http://js-imv.static.yximgs.com/mediacloud/imv/music_video/Ebgx0C_LhrF17z8eKqGUM8vFdmeJ4fa4IWjuL-_ewi0" alt="9">
+        <pre>我还想她-林俊杰</pre>
+        <div class="touxiang">
+        <img src="http://q.qlogo.cn/headimg_dl?dst_uin=1522279796&spec=640&img_type=jpg" alt="愔约🎸张万森可安好"/>
+        <span>愔约🎸WoL-拾柒</span>
+        </div>
+      </div>
+      <div class="one"
+        vpath="http://www.idc-bt.top/video/2023-01-05/63b67a9d27ecc.jpg"
+        ipath="http://www.idc-bt.top/video/2023-01-05/63b67ae66da48.mp4">
+        <img src="http://www.idc-bt.top/video/2023-01-05/63b67a9d27ecc.jpg" alt="9">
+        <pre>Kill The Game</pre>
+        <div class="touxiang">
+        <img src="http://q.qlogo.cn/headimg_dl?dst_uin=2574093958&spec=640&img_type=jpg" alt=""/>
+        <span>康康说他再想想🌈</span>
+        </div>
+      </div>
+<div class="videos"></div>
+    </div>
+    <script src="js/2.js "></script>
+    <script>
+      $('.one').each(function () { //遍历视频列表
+          $(this).click(function () { //这个视频被点击后执行
+              var img = $(this).attr('vpath');//获取视频预览图
+              var video = $(this).attr('ipath');//获取视频路径
+              $('.videos').html("<div class=\"videos2\"><video  id=\"video\" poster='" + img + "' style='width: 100%;' src='" + video + "' preload=\"auto\" controls=\"controls\" ></video><img onClick=\"close1()\" class=\"vclose\" src=\"./image/guanbianniu.png\"/></div>");
+              $('.videos').show();
+          });
+      });
+      function close1() {
+          var v = document.getElementById('videos');//获取视频节点
+          $('.videos2').remove();
+          // $('.videos').css("display", "none");//点击关闭按钮关闭暂停视频
+          // v.pause();
+          // $('.videos').html();
+      }
+
+  </script>
+  <!--作品结束-->
+  <!--页脚开始-->
+  <div class="footer">
+    <span>请勿违规使用</span>
+  </div>
+  <!--页脚结束-->
+  <div class="t-right-bar">
+	<div class="t-bar-rocket" id="back-to-top">
+	  <img src="image/rocket_1.svg" alt="" />
+	  返回顶部</div>
+</div>
+<script>
+    $(".t-right-bar").hide();
+    $(function () {
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 100) {
+                $(".t-right-bar").fadeIn(500);
+            }
+            else {
+                $(".t-right-bar").fadeOut(500);
+            }
+        });
+
+        $("#back-to-top").click(function () {
+            $('body,html').animate({scrollTop: 0}, 100);
+            return false;
+        });
+    });
+
+</script>
+</body>
+</html>

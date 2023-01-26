@@ -1,0 +1,244 @@
+body {
+    background-color: #9BBCF4;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style:none;
+  text-decoration: none;
+}
+.head{
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  z-index: 999;
+  display:flex;
+  height:50px;
+  padding: 0px 15px;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 15px #020202;
+}
+.head-logo{
+  display: flex;
+  align-self:center;
+  margin-right:30px;
+  width:30%;
+}
+.head-logo img{
+  height:40px;
+}
+.head-list{
+  width:70%;
+  align-self:center;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  
+}
+li>a{
+  color:#000000;
+  align-self:center;
+  height:30px;
+}
+a:hover{
+  color: #F20F18;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+}
+.title h3{
+  text-align: center;
+  margin:30px 10px;
+  color: #FFFFFF;
+}
+.title .line{
+  width:50px;
+  height: 1px;
+  background-color: #FFFFFF;
+}
+span h3{
+  text-align: center
+}
+/*作品属性开始*/
+.banner {
+          margin:auto;
+          width:90vw;
+          overflow-x: hidden;
+          flex-wrap: wrap;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 50px;
+        }
+
+.one:hover{
+          background-color: rgb(255, 196, 196);
+        }
+
+.one {
+      border-radius: 8px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.5);
+      display: inline-block;
+      width:40vw;
+      box-sizing: border-box;
+      flex: 0 0 50%;
+      margin:2vw;
+        }
+
+
+
+.one img {
+          border-radius: 10px;
+          margin: auto;
+          display: block;
+          width: 100%;
+          height: 140px;
+          object-fit:cover;
+          -webkit-filter: opacity(80%);
+        }
+
+.touxiang{
+          height: 20px;
+          margin-top: 15px;
+          
+        }
+
+.one span{
+    line-height: 22px;
+    color: rgb(75, 75, 75);
+    font-size: 10px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+pre{
+    margin-top: 15px;
+    transform:translateX(7px);
+    font-size: 11px;
+    color: rgb(218, 0, 199);
+  }
+
+.touxiang img{
+              margin-right: 5px;
+              float: left;
+              vertical-align: middle;
+              border-radius: 50px;
+              width: 20px;
+              height: 20px;
+            }
+
+.touxiang pre{
+            line-height: 56rpx;
+            float: right;
+            width: 80px;
+            height: 30px;
+            font-size: 13px;
+           }
+
+.text {
+      position: absolute;
+      font-size: 18px;
+      color: #FFF;
+      top: 83%;
+      left: 5%;
+      /* width: 55%;
+      white-space: pre-wrap; */
+    }
+
+.zol {
+    width: 100%;
+    height: 27%;
+    position: absolute;
+    top: 37%;
+    left: 0;
+    }
+
+.videos {
+        display: none;
+        position: fixed;
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        width: 90%;
+        z-index: 9999;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        }
+
+.vclose {
+        position: absolute;
+        right: 43%;
+        top: 100%;
+        z-index: 1000;
+        border-radius: 100%;
+        width: 55px !important;
+        height: 55px !important;
+        }
+/*作品属性结束*/
+.footer{
+        width:100vw;
+        text-align: center;
+        background-color: rgb(75, 75, 75);
+        position: fixed;
+        bottom: 0;
+        padding: 5px;
+      }
+.footer span{
+            display: block;
+            color: #FFFFFF;
+            }
+/*固定按钮*/
+.t-right-bar {
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    width: 48px;
+    height: 35px;
+    z-index: 1000;
+    cursor: pointer;
+    border-radius:15px 0px 0px 15px;
+    background-image: url(/image/rocket_1.svg);
+    background-position: 10px center;
+    background-repeat:no-repeat;
+    background-color: #FFFFFF;
+}
+
+.t-right-bar > div {
+    float: left;
+    height: 36px;
+    margin-bottom: 1px;
+    border-radius: 20px 0 0 20px;
+    color: #fff;
+    padding-left: 100%;
+    clear: both;
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 36px;
+    font-style: normal;
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    transition: transform .2s cubic-bezier(.215, .61, .355, 1), padding .2s cubic-bezier(.215, .61, .355, 1), margin .2s cubic-bezier(.215, .61, .355, 1), background-color .2s cubic-bezier(.215, .61, .355, 1)
+}
+
+ .t-right-bar > div.active, .t-right-bar > div:hover {
+    transform: translateX(-100%);
+    padding-left: 15px;
+    padding-right: 10px;
+    margin-left: 48px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: #000000;
+}
+
+.t-right-bar .t-bar-rocket {
+    display:flex;
+    background-image: url(/image/fhdb.svg);  /*按钮图标*/
+    background-position: 10px center;
+}

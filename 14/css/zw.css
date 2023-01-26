@@ -1,0 +1,48 @@
+.tz{
+  margin:auto;
+  margin-bottom: 50px;
+  width: 30%;
+}
+.ftza{
+  display: flex;
+}
+.tz img{
+      width:100%;
+      border-radius: 20px;
+}
+.ch{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.ch p{
+  color: #F046D6;
+  font-size: 25px;
+}
+.xch{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.xch p{
+  color: #F046D6;
+  font-size: 18px;
+}
+#tzwz{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+.ftz{
+  text-align: center;
+  margin:auto;
+  width: 19%;
+}
+.ftz span{
+  font-size: 12px;
+}
+.ftz img{
+  width: 100%;
+  border-radius:15px;
+}
+.ftz span{
+  
+}
