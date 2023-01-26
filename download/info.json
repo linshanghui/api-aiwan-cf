@@ -1,0 +1,225 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.wang/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "https://www.coolapk.com/",
+            "path": "index.html",
+            "saved": true,
+            "size": 61978,
+            "children": [
+                {
+                    "url": "https://static.coolapk.com/static/web/v11/img/android_hover.png",
+                    "path": "img/android_hover.png",
+                    "saved": true,
+                    "size": 6629
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v11/img/iphone_hover.png",
+                    "saved": false
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v8/images/coolapklogo.png",
+                    "path": "img/coolapklogo.png",
+                    "saved": true,
+                    "size": 3354
+                },
+                {
+                    "url": "https://www.coolapk.com/qr/image?data=base64:aHR0cHM6Ly93d3cuY29vbGFway5jb20vcXIvZG93bmxvYWQ_ZnJvbT1xcg~~&h=51a74481",
+                    "path": "img/image.png",
+                    "saved": true,
+                    "size": 397
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v11/img/android_normal.png",
+                    "path": "img/android_normal.png",
+                    "saved": true,
+                    "size": 6435
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v11/img/iphone_normal.png",
+                    "path": "img/iphone_normal.png",
+                    "saved": true,
+                    "size": 7275
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v8/images/download_now.png",
+                    "path": "img/download_now.png",
+                    "saved": true,
+                    "size": 5952
+                },
+                {
+                    "url": "https://www.coolapk.com/qr/image?data=base64:aHR0cDovL3dlaXhpbi5xcS5jb20vci9IQ2s4SlBMRWpLLXpyYlpIOTN3Tw~~&h=5aac8427",
+                    "path": "img/image_1.png",
+                    "saved": true,
+                    "size": 408
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v13/img/v13_index_1-2.png",
+                    "path": "img/v13_index_1-2.png",
+                    "saved": true,
+                    "size": 349425
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v13/img/v13_index_2.png",
+                    "path": "img/v13_index_2.png",
+                    "saved": true,
+                    "size": 176010
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v13/img/v13_index_3.png",
+                    "path": "img/v13_index_3.png",
+                    "saved": true,
+                    "size": 284738
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v13/img/v13_index_4.png",
+                    "path": "img/v13_index_4.png",
+                    "saved": true,
+                    "size": 236011
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v13/img/v13_index_5.png",
+                    "path": "img/v13_index_5.png",
+                    "saved": true,
+                    "size": 225244
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v11/img/iphone_hover.png",
+                    "path": "img/iphone_hover.png",
+                    "saved": true,
+                    "size": 7598
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v8/images/header-logo.png",
+                    "path": "img/header-logo.png",
+                    "saved": true,
+                    "size": 6985
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v8/images/beian.png",
+                    "path": "img/beian.png",
+                    "saved": true,
+                    "size": 19256
+                },
+                {
+                    "url": "https://www.coolapk.com/qr/image?data=base64:aHR0cHM6Ly93ZWliby5jb20vdS8xNzQ2NTIzOTc0&h=514f5cf8",
+                    "path": "img/image_2.png",
+                    "saved": true,
+                    "size": 337
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v8/weui/1.1.2/weui.js",
+                    "path": "js/weui.js",
+                    "saved": true,
+                    "size": 155015
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v11/js/swiper-bundle.min.js",
+                    "path": "js/swiper-bundle.min.js",
+                    "saved": true,
+                    "size": 139826
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v8/weui/1.1.2/weui.min.css",
+                    "path": "css/weui.min.css",
+                    "saved": true,
+                    "size": 50984
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v8/css/animate.min.css",
+                    "path": "css/animate.min.css",
+                    "saved": true,
+                    "size": 56048
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v11/css/swiper-bundle.min.css",
+                    "path": "css/swiper-bundle.min.css",
+                    "saved": true,
+                    "size": 13682
+                },
+                {
+                    "url": "https://static.coolapk.com/static/web/v12/css/index_v12.css",
+                    "path": "css/index_v12.css",
+                    "saved": true,
+                    "size": 10438,
+                    "children": [
+                        {
+                            "url": "https://static.coolapk.com/static/web/v11/img/first_screen_bg.png",
+                            "path": "img/first_screen_bg.png",
+                            "saved": true,
+                            "size": 250757
+                        },
+                        {
+                            "url": "https://static.coolapk.com/static/web/v8/images/bg_v10.png",
+                            "path": "img/bg_v10.png",
+                            "saved": true,
+                            "size": 196544
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "alias": "www-coolapk-com-y7ojh61",
+    "info": {
+        "remark": [],
+        "title": "酷安 - 发现科技新生活",
+        "domain": "www.coolapk.com",
+        "origin": "https://www.coolapk.com",
+        "ip": "116.177.248.36",
+        "main": "index.html",
+        "url": "https://www.coolapk.com/",
+        "totalSize": "2.27 MB",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "https://www.coolapk.com/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.wang/"
+            }
+        },
+        "response": {
+            "responseUrl": "https://www.coolapk.com/",
+            "redirects": [],
+            "statusCode": 200,
+            "headers": {
+                "date": "Thu, 26 Jan 2023 18:00:25 GMT",
+                "content-type": "text/html; charset=UTF-8",
+                "x-powered-by": "PHP/7.4.27",
+                "set-cookie": [
+                    "SESSID=0043-63d2bfb93a752-1674756025-2356; path=/; domain=.coolapk.com",
+                    "token=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=.coolapk.com"
+                ],
+                "x-frame-options": "Deny",
+                "vary": "Accept-Encoding",
+                "server": "Lego Server",
+                "x-cache-lookup": "Cache Miss, Cache Miss",
+                "cache-control": "private, must-revalidate, max-age=0",
+                "transfer-encoding": "chunked",
+                "x-nws-log-uuid": "7651010980982584128",
+                "connection": "close"
+            }
+        },
+        "time": {
+            "start": "2023-01-26T18:00:24.669Z",
+            "end": "2023-01-26T18:00:29.246Z"
+        }
+    },
+    "options": {
+        "url": "https://www.coolapk.com/",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "formatter": [],
+        "filenameGenerator": "byType"
+    }
+}
